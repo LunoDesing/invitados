@@ -1,0 +1,76 @@
+/* //////////////////////////////// INVITADOS /////////////////////////////////// */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: pink;
+}
+
+.invitados__title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em 1em;
+    line-height: 1.5;
+}
+
+.invitados {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg,rgb(250, 240, 210), rgb(232, 193, 227));
+    margin: 3em 0;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 1em;
+  }
+
+  #busqueda {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1em;
+ }
+ .busqueda__title{
+    font-size: 1.3rem;
+ }
+ .busqueda__name{
+    font-size: 1rem;
+    font-weight: 500;
+ }
+  .busqueda__input{
+    height: 2em;
+    border-radius: .7em;
+    border: none;
+    outline: 1px solid var(--color-general);
+    padding: 0 0 0 1em;
+  }
+
+  .busqueda___cta{
+    background: linear-gradient(to top, rgb(185, 115, 172), rgb(255, 238, 151));
+    box-shadow: 0 0 5px rgba(105, 0, 97, 0.142);
+    border: none;
+    width: 60%;
+    height: 2.5em;
+    margin: 0 auto 2em;
+    border-radius: .7em;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  #resultado {
+    margin-top: 0;
+    display: none; /* Inicialmente oculto */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
